@@ -1,0 +1,23 @@
+button{
+    border: 0;
+    background: unset;
+}
+
+.tabs{
+    background:transparent;
+    margin:20px 0;
+    display:flex;
+    justify-content: center;
+}
+.tabs{
+    border-radius:10px
+}
+.tab{
+    padding:20px;
+    font-size:14px;
+    font-weight:600;
+    transition:.3s ease-in-out;
+    white-space:nowrap;
+    background: #e1e1e1;    
+}
+
