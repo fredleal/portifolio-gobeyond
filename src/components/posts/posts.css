@@ -1,0 +1,55 @@
+.post1, 
+.post2,
+.post3{
+    background-size: auto 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+}
+
+.post1:hover,
+.post2:hover,
+.post3:hover{
+    transform:translateY(-10px)
+}
+
+.post-container{
+    margin: auto;
+    width:70vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.imagem{
+   width:100%;
+   height:100%;
+   background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(12, 12, 12));
+   border-radius:15px;
+   display:flex;
+   align-items: flex-end;
+   padding: 10px;
+
+}
+
+
+.post1 {
+    background-image: url(../img/moveit.png);
+}
+
+.post2 {
+    background-image: url(../img/weather.png);
+}
+
+.post3 {
+    background-image: url(../img/Rocket_Q.png);
+}
+
+.text{
+    color: #fff;
+    font-weight:600;
+    font-size:18px
+}

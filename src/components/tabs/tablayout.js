@@ -1,6 +1,7 @@
 import React from "react";
 import { Tabs, Tab, Panel } from '@bumaga/tabs' 
 import './tablayout.css'
+import PostProjetos from "../posts/posts-projetos";
 
 
 
@@ -14,9 +15,9 @@ function TabLayout() {
           <Tab><button className="tab">Referências</button></Tab>
         </div>
 
-        <Panel><p>Panel 1</p></Panel>
-        <Panel><p>Panel 2</p></Panel>
-        <Panel><p>Panel 3</p></Panel>
+        <Panel><PostProjetos /></Panel>
+        <Panel><p>To be completed</p></Panel>
+        <Panel><p>To be completed</p></Panel>
       </Tabs>
     );
   }
