@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img alt="portifolio-gobeyond" src="https://imgur.com/a/JZdLrAn" width="100%">
+  <img alt="portifolio-gobeyond" src="https://i.imgur.com/gNS91vL.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
